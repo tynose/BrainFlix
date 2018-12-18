@@ -1,0 +1,28 @@
+@import '../../../../../styles/partials/_variables.scss';
+
+.primaryVideoComments {
+  &__newComment {
+    display: flex;
+    padding: 25px 0;
+  }
+  &__form {
+    width: 100%;
+    margin-left: 28px;
+  }
+  &__input {
+    width: 100%;
+    outline: none;
+    padding: 5px 0;
+    margin-bottom: 12px;
+    border-width: 0 0 2px 0;
+    border-color: $grey;
+    &:hover {
+      font-weight: 700;
+      border-bottom: 3px solid $dark-grey;
+    }
+  }
+  &__buttons {
+    display: flex;
+    justify-content: flex-end;
+  }
+}

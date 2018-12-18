@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="11px" viewBox="0 0 60 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Volume Slider</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Volume-Slider" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-5" fill="#FFFFFF" opacity="0.300000012" x="0" y="3" width="60" height="4"></rect>
+        <rect id="Rectangle-5" fill="#FFFFFF" x="0" y="3" width="30" height="4"></rect>
+        <circle id="Oval-3" fill="#FFFFFF" cx="30.5" cy="5.5" r="5.5"></circle>
+    </g>
+</svg>

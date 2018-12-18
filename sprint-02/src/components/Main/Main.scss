@@ -1,0 +1,25 @@
+@import '../../styles/partials/_variables.scss';
+
+main {
+  padding: 50px 100px 100px 100px;
+}
+
+// media queries
+
+@media #{$tablet} {
+  main {
+    padding: 50px 50px 100px 50px;
+  }
+}
+
+@media #{$phone} {
+  main {
+    padding: 130px 50px 100px 50px;
+  }
+}
+
+@media #{$phone-small} {
+  main {
+    padding: 130px 0 100px 0;
+  }
+}

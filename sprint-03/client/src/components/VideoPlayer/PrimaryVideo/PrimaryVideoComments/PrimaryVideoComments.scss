@@ -1,0 +1,8 @@
+@import '../../../../styles/partials/_variables.scss';
+
+.primaryVideoComments {
+  &__newComment {
+    display: flex;
+    padding: 25px 0;
+  }
+}

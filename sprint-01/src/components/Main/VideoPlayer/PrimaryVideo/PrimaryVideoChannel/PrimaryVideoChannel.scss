@@ -1,0 +1,63 @@
+@import '../../../../../styles/partials/variables.scss';
+
+.primaryVideoChannel {
+  border-bottom: 2px solid $grey;
+  padding: 25px 0;
+  &__card {
+    font-weight: 500;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+  &__info {
+    display: flex;
+  }
+  &__authorLink{
+    width: 48px;
+    min-width: 48px;
+    height: 48px;
+    margin-right: 20px;
+    background-color: $grey;
+    border-radius: 50%;
+  }
+  &__name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 3px;
+  }
+  &__channel {
+    font-weight: 700;
+  }
+  &__publishDate {
+    font-weight: 400;
+    font-size: 0.65rem;
+    color: $dark-grey;
+  }
+  &__videoInfo {
+    margin-left: 68px;
+  }
+  &__videoDescription {
+    font-weight: 400;
+    margin-bottom: 25px;
+  }
+  &__showMore {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $dark-grey;
+    &:hover {
+      color: $black;
+    }
+  }
+}
+
+// media queries
+
+@media #{$phone-small} {
+  .primaryVideoChannel {
+    &__card {
+      flex-direction: column;
+    }
+  }
+}

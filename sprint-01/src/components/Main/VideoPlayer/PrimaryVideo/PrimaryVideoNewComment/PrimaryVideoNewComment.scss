@@ -1,0 +1,30 @@
+@import '../../../../../styles/partials/_variables.scss';
+
+.primaryVideoNewComment {
+  display: flex;
+  margin-bottom: 30px;
+  &__link{
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: contain;
+    overflow: hidden;
+  }
+  &__avator {
+    height: 40px;;
+  }
+  &__info {
+    margin-left: 28px;
+  }
+  &__name {
+    font-weight: 700;
+    margin-right: 10px;
+  }
+  &__timestamp {
+    color: $dark-grey;
+  }
+  &__comment {
+    margin-top: 5px;
+  }
+}

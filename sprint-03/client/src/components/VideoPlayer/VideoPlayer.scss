@@ -1,0 +1,27 @@
+@import '../../styles/partials/_variables.scss';
+
+.videoPlayer {
+  display: flex;
+  padding: 140px 100px 100px 100px;
+}
+
+// media queries
+
+@media #{$tablet} {
+  .videoPlayer {
+    padding: 50px 50px 100px 50px;
+  }
+}
+
+@media #{$phone} {
+  .videoPlayer {
+    flex-direction: column;
+    padding: 130px 50px 100px 50px;
+  }
+}
+
+@media #{$phone-small} {
+  .videoPlayer {
+    padding: 130px 0 100px 0;
+  }
+}

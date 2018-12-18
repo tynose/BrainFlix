@@ -1,0 +1,39 @@
+@import '../../../styles/partials/_variables.scss';
+@import '../../../styles/partials/_mixins.scss';
+
+.searchBar {
+  width: 40%;
+  height: 44px;
+  margin-right: 10vw;
+  background-color: $white;
+  border: 2px solid $light-grey;
+  border-radius: 3px;
+  display: flex;
+  &__input {
+    width: 100%;
+    padding: 15px;
+    border: none;
+  }
+  &__button {
+    width: 109px;
+    background-color: $light-blue;
+    border-left: 2px solid $light-grey;
+    @include flex-center;
+  }
+  &__icon {
+    height: 20px;
+  }
+}
+
+input {
+  font-size: 1rem;
+}
+
+// media queries
+
+@media #{$phone} {
+  .searchBar {
+    width: 100%;
+    margin: 0;
+  }
+}

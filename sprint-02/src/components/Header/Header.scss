@@ -1,0 +1,54 @@
+@import '../../styles/partials/_variables.scss';
+@import '../../styles/partials/_mixins.scss';
+
+.header {
+  &__image {
+    margin: 0 50px 0 0;
+  }
+  &__content {
+    position: fixed;
+    z-index: 1000;
+    background-color: $white;
+    width: 100vw;
+    padding: 0 100px;
+    height: 80px;
+    box-shadow:  0px 6px 8px -3px rgba(17, 17, 17, .06); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__upload {
+    display: flex;
+    margin-right: 50px; 
+    outline: none;
+    background: none;
+  }
+  &__user {
+    display: flex;
+  }
+}
+
+// media queries
+
+@media #{$tablet} {
+  .header {
+    &__content {
+      padding: 0 50px;
+    }
+  }  
+}
+
+@media #{$phone} {
+  .header {
+    &__content {
+      height: 170px;
+      justify-content: center;
+      flex-wrap: wrap;
+      display: flex;
+    }
+    &__user {
+      margin-bottom: 10px;
+    }
+  }
+}
+

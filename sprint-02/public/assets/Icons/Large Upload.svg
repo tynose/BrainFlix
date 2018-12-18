@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="138px" height="91px" viewBox="0 0 138 91" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Upload </title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/Largeupload">
+            <g id="Upload-">
+                <path d="M14.4,0 L122.961264,0 C130.914165,5.6026704e-15 137.361264,6.4470996 137.361264,14.4 L137.361264,76.4212974 C137.361264,84.3741978 130.914165,90.8212974 122.961264,90.8212974 L14.4,90.8212974 C6.4470996,90.8212974 -2.57876428e-15,84.3741978 -3.55271368e-15,76.4212974 L0,14.4 C-9.73949402e-16,6.4470996 6.4470996,-3.86814642e-15 14.4,-5.32907052e-15 Z" id="Rectangle-2" fill="#D4D4D4"></path>
+                <rect id="Rectangle-4" fill="#FFFFFF" x="50" y="53" width="38" height="38"></rect>
+                <polygon id="Triangle-5" fill="#FFFFFF" points="69 13 112 64 26 64"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+@import '../../../styles/partials/_variables.scss';
+
+.videoPlayer {
+  display: flex;
+  margin-top: 80px;
+}
+
+// media queries
+
+@media #{$phone} {
+  .videoPlayer {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,146 @@
+@import '../../styles/partials/_variables.scss';
+
+.uploadVideo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $light-blue;
+  width: 100vw;
+  height: 100vh;
+  padding: 12% 8% 8% 8%;
+  &__container {
+    background-color: $white;
+    border: 2px solid $light-grey;
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 15px;
+  }
+  &__uploadStatus {
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: auto;
+  }
+  &__thumbNail {
+    object-fit: cover;
+    width: 100%;
+    height: 125px;
+    margin-bottom: 20px;
+  }
+  &__statusHeader {
+    margin-bottom: 5px;
+  }
+  &__statusSpan {
+    font-weight: 700;
+    color: $grey;
+  }
+  &__dataInput {
+    width: 100%;
+  }
+  &__form {
+    width: 50%;
+    margin-bottom: 40px;
+  }
+  &__buttonContainer {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  &__publish {
+    width: 120px;
+    height: 30px;
+    font-weight: 500;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    color: $white;
+    background-color: $dark-blue;
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+  &__label {
+    font-weight: bold;
+  }
+  &__header {
+    font-weight: normal;
+    margin-bottom: 8px;
+    &--formHeader {
+      font-weight: 700;
+      margin-bottom: 30px;
+    }
+  }
+  &__input {
+    outline: none;
+    background-color: $light-blue;
+    font-size: 0.85rem;
+    padding: 5px;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 30px;
+    border-radius: 2px;
+    border: 1px solid $light-grey;
+    &--option {
+      width: 20%;
+      color: black;
+    }
+  }
+  &__text {
+    outline: none;
+    resize: none;
+    background-color: $light-blue;
+    font-size: 0.85rem;
+    width: 100%;
+    padding: 5px;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 75px;
+    height: 75px;
+    margin-bottom: 30px;
+    border-radius: 2px;
+    border: 1px solid $light-grey;
+  }
+  &__videoInput {
+    display: flex;
+    flex-direction: column;
+  }
+  &__videoInputs {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__imageInput {
+    width: calc((100% / 3) - 10px);
+    object-fit: cover;
+    height: 95px;
+  }
+}
+
+// media queries
+
+@media #{$phone} {
+ .uploadVideo {
+    padding: 225px 8% 8% 8%;
+    &__uploadStatus {
+      display: none;
+    }
+    &__form {
+      width: 80%;
+    }
+    &__buttonContainer {
+      justify-content: center;
+    }
+  }
+}
+
+@media #{$phone-small} {
+ .uploadVideo {
+    padding: 225px 8% 8% 8%;
+    &__form {
+      width: 100%;
+    }
+  }
+}

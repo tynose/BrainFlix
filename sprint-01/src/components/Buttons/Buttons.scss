@@ -1,0 +1,70 @@
+@import '../../styles/partials/_variables.scss';
+
+.upload {
+  display: flex;
+  margin-right: 50px; 
+  outline: none;
+  background: none;
+}
+
+.subscribe {
+  width: 155px;
+  height: 40px;
+  font-weight: 500;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  justify-content: space-between;
+  padding: 0 15px;
+  border-radius: 2px;
+  background-color: $dark-blue;
+  &:hover {
+    opacity: 0.5;
+  &:hover > .subscribe__text {
+    color: $grey;
+  }
+  }
+  
+  &__text {
+    color: $white;
+  }
+  &__numbers {
+    color: $grey;
+  }
+}
+
+.comment {
+  width: 120px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  background-color: $dark-blue;
+  text-transform: uppercase;
+  &__text {
+    color: $white;
+  }
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.cancel {
+  margin: 0 45px;
+  display: flex;
+  background: none; 
+  text-transform: uppercase;
+  &:hover {
+    color: $grey;
+  }
+}
+
+
+// media queries
+
+@media #{$phone-small} {
+  .subscribe {
+    margin: 10px auto;
+  }
+}
+

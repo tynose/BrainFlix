@@ -1,0 +1,42 @@
+@import '../../../../styles/partials/_variables.scss';
+
+.PrimaryVideoTheatre {
+  &__videoPlayer {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  &__caption {
+    font-weight: 500;
+  }
+  &__info {
+    display: flex;
+    flex-direction: column;
+  }
+  &__stats {
+    color: $dark-grey;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 2px solid $grey;
+  }
+  &__views {
+    font-size: 0.95rem;
+  }
+  &__buttons {
+    display: flex;
+  }
+  &__link {
+    display: flex;
+    margin-right: 10px;
+  }
+  &__button {
+    text-transform: uppercase;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    &:last-child {
+      margin: 0 0 0 10px;
+    }
+  }
+}
